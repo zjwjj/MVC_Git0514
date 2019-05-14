@@ -13,6 +13,13 @@ namespace MVC_Git0514.Controllers
             return View();
         }
 
+        public ActionResult MyAction1()   //添加了一个自定义的控制器动作MyAction1
+        {
+            ViewBag.Message = "这是我的第一个Action";
+            ViewBag.Xuehao = "20180001";
+            return View();
+
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

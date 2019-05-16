@@ -25,7 +25,11 @@ namespace MVC_Git0514.Controllers
             ViewBag.Message = "这是我的第二个Action";
             return View();
         }
-
+        public ActionResult MyAction3()
+        {
+            ViewBag.Message = "这是我的第三个Action";
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

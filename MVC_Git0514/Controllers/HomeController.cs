@@ -25,6 +25,12 @@ namespace MVC_Git0514.Controllers
             ViewBag.Message = "这是我的第二个Action";
             return View();
         }
+        public ActionResult WxyAction3()
+        {
+            ViewBag.Message = "这是wxy的Action";
+            ViewBag.Xuehao = "201831980211";
+            return View();
+        }
 
         public ActionResult About()
         {

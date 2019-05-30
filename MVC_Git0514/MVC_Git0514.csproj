@@ -243,6 +243,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\MyAction1.cshtml" />
     <Content Include="Views\Home\MyAction2.cshtml" />
+    <Content Include="Views\Home\WxyAction3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
